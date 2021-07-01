@@ -1,0 +1,58 @@
+.signupbody {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    padding: 10px;
+}
+
+.signcontainer {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.signcontainer .signtitle {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.signcontainer .signtitle::before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 133px;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.signcontainer form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.signcontainer form .user-details .input-box {
+    margin: 20px 0 12px 0;
+    width: calc(100% /2 - 20px);
+}
+
+.user-details .input-box input {
+     height: 45px;
+     width: 100%;
+}
+
+.user-details .input-box .details {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display:block;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 16px;
+}
